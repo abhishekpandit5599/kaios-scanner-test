@@ -1,0 +1,42 @@
+{
+  "version": "1.0.1",
+  "id": "Wallet",
+  "short_name": " Wallet",
+  "name": " Wallet",
+  "title": " Wallet for KaiOS: Empowering  Management on Feature Phones",
+  "description": "Manage your  cryptocurrency with ease using our dedicated  Wallet for KaiOS devices. Safely store, send, and receive  tokens on your feature phone. Enjoy seamless transactions, reliable connectivity, and enhanced accessibility. Join the  revolution today!",
+  "type": "privileged",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/android-chrome-192x192.png",
+    "112": "/android-chrome-192x192.png",
+    "128": "/android-chrome-192x192.png"
+  },
+  "dependencies": {
+		"ads-sdk": "1.5.8"
+	},
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#40108E",
+  "background_color": "#ffffff",
+  "lang":"en-US",
+  "orientation": "portrait",
+  "developer": {
+    "name": "Kaifoundry",
+    "url": "https://kaifoundry.com"
+  },
+  "locales": {
+    "en-US": {
+      "name": " Wallet",
+      "subtitle": " Wallet for KaiOS: Empowering  Management on Feature Phones",
+      "description": "Manage your  cryptocurrency with ease using our dedicated  Wallet for KaiOS devices. Safely store, send, and receive  tokens on your feature phone. Enjoy seamless transactions, reliable connectivity, and enhanced accessibility. Join the  revolution today!"
+    }
+  },
+  "default_locale": "en-US",
+  "permissions": {
+    "camera": {
+      "description": "Required for accessing cameras on the device."
+    }
+  },
+  "systemXHR": {}
+}

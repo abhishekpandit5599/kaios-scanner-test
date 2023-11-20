@@ -1,0 +1,42 @@
+{
+  "version": "1.0.1",
+  "id": "TON Wallet",
+  "short_name": "TON Wallet",
+  "name": "TON Wallet",
+  "title": "TON Wallet for KaiOS: Empowering TON Management on Feature Phones",
+  "description": "Manage your TON cryptocurrency with ease using our dedicated TON Wallet for KaiOS devices. Safely store, send, and receive TON tokens on your feature phone. Enjoy seamless transactions, reliable connectivity, and enhanced accessibility. Join the TON revolution today!",
+  "type": "privileged",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/android-chrome-192x192.png",
+    "112": "/android-chrome-192x192.png",
+    "128": "/android-chrome-192x192.png"
+  },
+  "dependencies": {
+		"ads-sdk": "1.5.8"
+	},
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#40108E",
+  "background_color": "#ffffff",
+  "lang":"en-US",
+  "orientation": "portrait",
+  "developer": {
+    "name": "Kaifoundry",
+    "url": "https://kaifoundry.com"
+  },
+  "locales": {
+    "en-US": {
+      "name": "TON Wallet",
+      "subtitle": "TON Wallet for KaiOS: Empowering TON Management on Feature Phones",
+      "description": "Manage your TON cryptocurrency with ease using our dedicated TON Wallet for KaiOS devices. Safely store, send, and receive TON tokens on your feature phone. Enjoy seamless transactions, reliable connectivity, and enhanced accessibility. Join the TON revolution today!"
+    }
+  },
+  "default_locale": "en-US",
+  "permissions": {
+    "camera": {
+      "description": "Required for accessing cameras on the device."
+    }
+  },
+  "systemXHR": {}
+}
